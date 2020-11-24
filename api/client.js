@@ -1,6 +1,7 @@
 import fetch from 'isomorphic-unfetch';
-import { group, toUrl } from '../helpers';
+import { toUrl } from '../helpers';
 import { API } from '../constants';
+import { group } from '../helpers/group';
 
 const API_URL = API;
 export const makeConfig = () => ({
