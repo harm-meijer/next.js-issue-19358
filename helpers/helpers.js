@@ -1,5 +1,5 @@
-import { setQuery } from './store/actions';
-import { initStore } from './store/initStore';
+import { setQuery } from '../store/actions';
+import { initStore } from '../store/initStore';
 
 // sort keys in query to always get the same json string for query key
 export const queryAsKey = (query) =>

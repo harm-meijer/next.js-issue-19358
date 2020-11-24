@@ -7,7 +7,6 @@ import {
   SET_QUERY,
   SET_PAGE_LOADING,
 } from './actions';
-import { queryAsKey } from '../helpers';
 
 const initState = {
   products: {
